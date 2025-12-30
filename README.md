@@ -1,6 +1,6 @@
 # OS Algorithms Visualizer
 
-An interactive web-based visualizer for core **Operating System algorithms**, designed to help students understand **CPU scheduling** and **memory management** through real-time simulation and visual representation.
+An interactive web-based visualizer for core **Operating System algorithms**, designed to help students understand **CPU scheduling** and **memory management** through real-time simulation and intuitive visual representation.
 
 ---
 
@@ -49,7 +49,7 @@ An interactive web-based visualizer for core **Operating System algorithms**, de
 
 ### 🧠 LRU Cache Simulation
 
-**Cache Capacity:** `3`  
+**Cache Capacity:** `3`
 
 **Page Reference String:**
 
@@ -59,29 +59,51 @@ An interactive web-based visualizer for core **Operating System algorithms**, de
 
 - Strong understanding of Round Robin scheduling mechanics
 - Clear visualization of LRU page replacement policy
-- Hands-on experience with OS concepts through interactive UI
+- Hands-on experience with OS concepts using an interactive UI
 - Improved grasp of scheduling fairness and cache efficiency
 
 ---
 
 ## 📷 Screenshots
 
-### Round Robin Scheduler
-<img src="https://github.com/user-attachments/assets/a307272d-476f-4f4d-b7b6-6730b16ff886" width="800"/>
-<img src="https://github.com/user-attachments/assets/2c8ac074-f39a-41e0-bc73-4bf731a41e40" width="800"/>
-<img src="https://github.com/user-attachments/assets/e58fbfa9-e8d1-420d-a0a1-b24b596b8290" width="800"/>
+### 🔁 Round Robin — Input & Process List
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a307272d-476f-4f4d-b7b6-6730b16ff886" width="850" />
+</p>
 
-### LRU Cache Simulation
-<img src="https://github.com/user-attachments/assets/c32a2925-c9f5-4365-a4d4-5c7b6b014b64" width="800"/>
-<img src="https://github.com/user-attachments/assets/96969e41-e489-4407-85f7-46b79018f679" width="800"/>
-<img src="https://github.com/user-attachments/assets/ee69e174-c540-4d8a-88ef-f12dd151845d" width="600"/>
+### 🔁 Round Robin — Results Table
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c8ac074-f39a-41e0-bc73-4bf731a41e40" width="850" />
+</p>
+
+### 🔁 Round Robin — Gantt Chart Visualization
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e58fbfa9-e8d1-420d-a0a1-b24b596b8290" width="850" />
+</p>
+
+---
+
+### 🧠 LRU Cache — Input Configuration
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c32a2925-c9f5-4365-a4d4-5c7b6b014b64" width="850" />
+</p>
+
+### 🧠 LRU Cache — Summary (Hits, Faults, Ratio)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/96969e41-e489-4407-85f7-46b79018f679" width="850" />
+</p>
+
+### 🧠 LRU Cache — Step-by-Step Execution
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ee69e174-c540-4d8a-88ef-f12dd151845d" width="650" />
+</p>
 
 ---
 
 ## 👨‍💻 Author
 
 **Pranav Patil**  
-GitHub: [pranav4002](https://github.com/pranav4002)
+GitHub: [https://github.com/pranav4002](https://github.com/pranav4002)
 
 ---
 
