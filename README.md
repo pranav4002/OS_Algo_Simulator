@@ -1,16 +1,67 @@
-# React + Vite
+# OS Algorithms Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web-based visualizer for core Operating System algorithms, designed to help students understand CPU scheduling and memory management through real-time simulation and visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🔁 Round Robin CPU Scheduling
+- Add processes with custom arrival and burst times
+- Configure time quantum
+- Displays:
+  - Completion, Waiting, and Turnaround times
+  - Gantt Chart showing CPU execution order
+- Clearly demonstrates time-sharing and context switching
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧠 LRU Cache Simulation
+- Configure cache capacity
+- Input page reference string
+- Displays:
+  - Total Hits, Faults, and Hit Ratio
+  - Step-by-step cache state (LRU → MRU)
+- Highlights page replacement decisions visually
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **Frontend:** React.js
+- **Concepts:** Operating Systems (CPU Scheduling, Memory Management)
+- **Visualization:** Tables, Gantt Charts, Step-by-step execution
+
+---
+
+## 📌 Sample Inputs (For Best Demo)
+
+### Round Robin
+| Process | Arrival | Burst |
+|-------|---------|-------|
+| P1 | 0 | 5 |
+| P2 | 1 | 3 |
+| P3 | 2 | 6 |
+| P4 | 3 | 4 |
+
+**Time Quantum:** `2`
+
+---
+
+### LRU Cache
+**Capacity:** `3`  
+**Pages:**  
+---
+
+## 🎯 Learning Outcomes
+
+- Strong understanding of Round Robin scheduling mechanics
+- Clear visualization of LRU page replacement policy
+- Hands-on experience with OS concepts using interactive UI
+- Improved grasp of scheduling fairness and cache efficiency
+
+---
+
+## 📷 Screenshots
+
+
+
+
